@@ -12,7 +12,7 @@
 
 import processing.core.*;
 
-public class Prog_3 extends PApplet {
+public class Main_Program extends PApplet {
 	// Our spaceship
 	private Spaceship ship;
 	// To store the ship's initial health
@@ -146,6 +146,6 @@ public class Prog_3 extends PApplet {
 	 * The driver
 	 */
 	public static void main(String[] args){
-		PApplet.main("Prog_3");
+		PApplet.main("Asteroids!");
 	}
 }
